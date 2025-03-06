@@ -1,0 +1,63 @@
+[
+    {
+        "additionalInfoTypeId": 1,
+        "additionalInfoTypeName": "Additional charge request",
+        "systemPredefined": true,
+        "linkedToInvoice": true,
+        "customerAppEnabled": false,
+        "approvalRequired": true,
+        "driverAppEnabled": false,
+        "bookingListEnabled": true,
+        "deactivated": false,
+        "count": 5
+    },
+    {
+        "additionalInfoTypeId": 2,
+        "additionalInfoTypeName": "Message of a proof",
+        "systemPredefined": true,
+        "linkedToInvoice": true,
+        "customerAppEnabled": false,
+        "approvalRequired": true,
+        "driverAppEnabled": false,
+        "bookingListEnabled": true,
+        "deactivated": false,
+        "count": 5
+    },
+    {
+        "additionalInfoTypeId": 3,
+        "additionalInfoTypeName": "Proof of Delivery",
+        "systemPredefined": false,
+        "linkedToInvoice": true,
+        "customerAppEnabled": true,
+        "approvalRequired": true,
+        "driverAppEnabled": true,
+        "bookingListEnabled": true,
+        "deactivated": false,
+        "count": 5
+    },
+    {
+        "additionalInfoTypeId": 4,
+        "additionalInfoTypeName": "Driver Strike",
+        "systemPredefined": false,
+        "linkedToInvoice": true,
+        "customerAppEnabled": false,
+        "approvalRequired": true,
+        "driverAppEnabled": false,
+        "bookingListEnabled": true,
+        "deactivated": false,
+        "count": 5
+    },
+    {
+        "additionalInfoTypeId": 5,
+        "additionalInfoTypeName": "Fake Booking",
+        "systemPredefined": false,
+        "linkedToInvoice": true,
+        "customerAppEnabled": false,
+        "approvalRequired": true,
+        "driverAppEnabled": false,
+        "bookingListEnabled": true,
+        "deactivated": false,
+        "count": 5
+    }
+    
+]
