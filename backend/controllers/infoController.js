@@ -1,6 +1,7 @@
 // const addInfoModel = require('../models/insertInfoModel');
 const infoModel = require('../models/infoModel');
 const Userdb = require('../models/insertInfoModel');
+const autoIncrement = require('mongoose-auto-increment');
 
 //Get Info API - /api/v1/additonal/info
 exports.getAdditionalInfo = async (req, res) => {
@@ -46,24 +47,35 @@ exports.getAdditionalInfoById = async (req, res) => {
     }
 }
 
-exports.insertAdditionalInfo = (req, res) => {
-    //new info
-    const user = new Userdb({
+//Insert Additional Info Detail API - /api/v1/insert/additonal/info/detail
+exports.insertAdditionalInfo = async (req, res) => {
+    console.log("Request Body:", req.body);
+    const additionalInfoTypeId = await infoModel.find({additionalInfoTypeId: req.body.additionalInfoTypeId})
+    
+    const user = new infoModel({
         additionalInfoTypeId: req.body.additionalInfoTypeId,
         additionalInfoTypeName: req.body.additionalInfoTypeName,
         customerAppEnabled: req.body.customerAppEnabled,
         approvalRequired: req.body.approvalRequired,
         driverAppEnabled: req.body.driverAppEnabled,
-        bookingListEnabled: req.body.bookingListEnabled
-    })
-    //save info in database
-    user
-        .save(user)
+        bookingListEnabled: req.body.bookingListEnabled,
+        systemPredefined: true,
+        linkedToInvoice: true,
+        count:5
+    }); 
+
+    user.save()
         .then(data => {
-            // res.send(data);
-            res.redirect('/add-user')
+            res.status(201).json({
+                success: true,
+                data: data
+            });
         })
         .catch(err => {
-            res.status(500).send({ message: err.message || 'some error occurred while creating a create operation' });
+            console.error("Error saving data:", err);
+            res.status(500).json({
+                success: false,
+                message: err.message || 'Some error occurred while creating a create operation'
+            });
         });
-}
+};
