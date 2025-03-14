@@ -1,7 +1,6 @@
 // const addInfoModel = require('../models/insertInfoModel');
 const infoModel = require('../models/infoModel');
 const Userdb = require('../models/insertInfoModel');
-const autoIncrement = require('mongoose-auto-increment');
 
 //Get Info API - /api/v1/additonal/info
 exports.getAdditionalInfo = async (req, res) => {
@@ -50,10 +49,19 @@ exports.getAdditionalInfoById = async (req, res) => {
 //Insert Additional Info Detail API - /api/v1/insert/additonal/info/detail
 exports.insertAdditionalInfo = async (req, res) => {
     console.log("Request Body:", req.body);
-    const additionalInfoTypeId = await infoModel.find({additionalInfoTypeId: req.body.additionalInfoTypeId})
+    const body = req.body;
+    console.log(body,"www--->body");
+    
+    const additionalInfoTypeId = infoModel.length + 3;
+    console.log(additionalInfoTypeId,"www--->additionalInfoTypeId");
+    console.log(infoModel.length,"www--->length");
+    
+    // const additionalInfoTypeId = Number(body.increse((acc, item) => (acc + item.data.additionalInfoTypeId), acc++ ));
+    // const additionalInfoTypeId = await infoModel.find({additionalInfoTypeId: req.body.additionalInfoTypeId})
     
     const user = new infoModel({
-        additionalInfoTypeId: req.body.additionalInfoTypeId,
+        // additionalInfoTypeId: additionalInfoTypeId,
+        additionalInfoTypeId: additionalInfoTypeId,
         additionalInfoTypeName: req.body.additionalInfoTypeName,
         customerAppEnabled: req.body.customerAppEnabled,
         approvalRequired: req.body.approvalRequired,
@@ -67,14 +75,14 @@ exports.insertAdditionalInfo = async (req, res) => {
     user.save()
         .then(data => {
             res.status(201).json({
-                success: true,
+                message: "success",
                 data: data
             });
         })
         .catch(err => {
             console.error("Error saving data:", err);
             res.status(500).json({
-                success: false,
+                success: true,
                 message: err.message || 'Some error occurred while creating a create operation'
             });
         });

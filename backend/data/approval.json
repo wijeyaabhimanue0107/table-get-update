@@ -1,0 +1,95 @@
+[
+    {
+        "additionalInfoApprovalId": 1,
+        "bookingId": "BOOK00334894",
+        "driverName": "Abhimanue W",
+        "driverEmail": "abhimanue@test.com",
+        "driverPhone": "+91555553354",
+        "additionalInfoTypeName": "Additional Charge Request",
+        "proofPath": [
+            "https://images.ctfassets.net/kftzwdyauwt9/5QBdHjxB6xgmUxNy8BrCsw/c15c703680f1e5e629d43c24acaf67fe/VariationofDALLE2generationofaportraitpaintingofSalvadorDaliwitharobotichalfface7.jpeg?w=3840&q=90&fm=webp",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2lC1w1fL5_nlCquzpyOBiTAGEEmaEFe3v1A&s",
+            "https://images.ctfassets.net/kftzwdyauwt9/5QBdHjxB6xgmUxNy8BrCsw/c15c703680f1e5e629d43c24acaf67fe/VariationofDALLE2generationofaportraitpaintingofSalvadorDaliwitharobotichalfface7.jpeg?w=3840&q=90&fm=webp",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2lC1w1fL5_nlCquzpyOBiTAGEEmaEFe3v1A&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2lC1w1fL5_nlCquzpyOBiTAGEEmaEFe3v1A&s"
+        ],
+        "uploadedOn": "13-09-2021",
+        "uploadedBy": "Admin",
+        "description": "Nojsfbvjifbjenbofhoeuhoneoi",
+        "approvalStatus": 3,
+        "count": 2
+    },
+    {
+        "additionalInfoApprovalId": 2,
+        "bookingId": "BOOK00335847",
+        "driverName": "Loganathan S",
+        "driverEmail": "loganloku@test.com",
+        "driverPhone": "+91000033354",
+        "additionalInfoTypeName": "Message of a proof",
+        "proofPath":[
+            "https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2lC1w1fL5_nlCquzpyOBiTAGEEmaEFe3v1A&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2lC1w1fL5_nlCquzpyOBiTAGEEmaEFe3v1A&s"
+        ],
+        "uploadedOn": "13-09-2021",
+        "uploadedBy": "ajinthan@test.com",
+        "description": "Nopmgbonbeunfonoubebv iegjnuerhgiuberourhuwvuwrbioen",
+        "approvalStatus": 1,
+        "count": 2
+    },
+    {
+        "additionalInfoApprovalId": 3,
+        "bookingId": "BOOK00334894",
+        "driverEmail": "abhimanue@test.com",
+        "driverName": "Abhimanue W",
+        "driverPhone": "+91555553354",
+        "additionalInfoTypeName": "Additional Charge Request",
+        "proofPath": [
+            "https://img.freepik.com/free-photo/animal-eye-staring-close-up-watch-nature-generative-ai_188544-15471.jpg",
+            "https://img.freepik.com/free-photo/animal-eye-staring-close-up-watch-nature-generative-ai_188544-15471.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2lC1w1fL5_nlCquzpyOBiTAGEEmaEFe3v1A&s"
+        ],
+        "uploadedOn": "13-09-2021",
+        "uploadedBy": "Admin",
+        "description": "Nojsfbvjifbjenbofhoeuhoneoi",
+        "approvalStatus": 3,
+        "count": 5
+    },
+    {
+        "additionalInfoApprovalId": 4,
+        "bookingId": "BOOK00335847",
+        "driverEmail": "loganloku@test.com",
+        "driverName": "Loganathan S",
+        "driverPhone": "+91000033354",
+        "additionalInfoTypeName": "Message of a proof",
+        "proofPath": [
+            "https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg",
+            "https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg",
+            "https://imageio.forbes.com/specials-images/imageserve/5faad4255239c9448d6c7bcd/Best-Animal-Photos-Contest--Close-Up-Of-baby-monkey/960x0.jpg?format=jpg&width=960",
+            "https://imageio.forbes.com/specials-images/imageserve/5faad4255239c9448d6c7bcd/Best-Animal-Photos-Contest--Close-Up-Of-baby-monkey/960x0.jpg?format=jpg&width=960"
+        ],
+        "uploadedOn": "13-09-2021",
+        "uploadedBy": "ajinthan@test.com",
+        "description": "Nopmgbonbeunfonoubebv iegjnuerhgiuberourhuwvuwrbioen",
+        "approvalStatus": 1,
+        "count": 5
+    },
+    {
+        "additionalInfoApprovalId": 5,
+        "bookingId": "BOOK00334770",
+        "driverEmail": "ajinthan@test.com",
+        "driverName": "Ajinthan T",
+        "driverPhone": "+91222233354",
+        "additionalInfoTypeName": "Proof of Delivery",
+        "proofPath": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2lC1w1fL5_nlCquzpyOBiTAGEEmaEFe3v1A&s",
+            "https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg",
+            "https://static.remove.bg/sample-gallery/graphics/bird-thumbnail.jpg"
+        ],
+        "uploadedOn": "13-09-2021",
+        "uploadedBy": "sajeethanezio@fa.com",
+        "description": "Nwrjgbiebgubuvnwovouwhvnjoefbnd bknb9rugniownv erjvbrgnrwklf erkjbguerfmef o",
+        "approvalStatus": 2,
+        "count": 5
+    }
+]
